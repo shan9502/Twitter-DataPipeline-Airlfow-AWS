@@ -5,10 +5,11 @@ from datetime import datetime
 import s3fs
 
 def twitter_etl_func():
-    access_key = "XAgXR5hATrffcc40l5c5tCjIK"
-    access_secret = "89LI2NuRpYQ0i3E2P14vmw4tDC1cdqYt1MxDvJsOiHSpoQRhKH"
-    consumer_key = "1106977853579497472-oTJFxdOYyUnjX4gjjOyRIXZ2ZmCO0I"
-    consumer_secret = "ywNzbfciRYlRfOxOfBT7oKfb4hr4bPSc08jRYx7lgP4gJ"
+    #apply twitter api keys here
+    access_key = "#####"
+    access_secret = "####"
+    consumer_key = "####"
+    consumer_secret = "####"
 
     # Twitter authentication
     auth = tweepy.OAuthHandler(access_key, access_secret)
